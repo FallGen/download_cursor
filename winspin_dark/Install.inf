@@ -1,0 +1,55 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%location%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+NormalSelect.cur
+HelpSelect.cur
+Winspin.ani
+Busy.ani
+beam_r.cur
+Unavailable.cur
+ns.cur
+ew.cur
+nwse.cur
+nesw.cur
+move.cur
+link.cur
+PrecisionSelect.cur
+pen.cur
+up.cur
+pin.cur
+person.cur
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\Winspin Dark"
+SCHEME_NAME   = "Winspin Dark"
+pointer       = "NormalSelect.cur"
+help          = "HelpSelect.cur"
+work          = "Winspin.ani"
+busy          = "Busy.ani"
+text          = "beam_r.cur"
+unavailiable  = "Unavailable.cur"
+vert          = "ns.cur"
+horz          = "ew.cur"
+dgn1          = "nwse.cur"
+dgn2          = "nesw.cur"
+move          = "move.cur"
+link          = "link.cur"
+cross         = "PrecisionSelect.cur"
+hand          = "pen.cur"
+alternate     = "up.cur"
+location      = "pin.cur"
+person        = "person.cur"
